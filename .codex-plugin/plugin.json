@@ -1,0 +1,21 @@
+{
+  "name": "bitelemon-ui",
+  "version": "1.0.0",
+  "description": "Search, compare, compose, and install free source-backed React UI from Bitelemon.",
+  "author": {
+    "name": "leifiyoo"
+  },
+  "homepage": "https://bitelemon.sh/developers/mcp",
+  "repository": "https://github.com/leifiyoo/bitelemon-ui",
+  "license": "MIT",
+  "keywords": ["bitelemon-ui", "mcp", "react", "tailwind", "shadcn", "ui-components"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Bitelemon UI",
+    "shortDescription": "Discover and install free source-backed React UI",
+    "category": "Development",
+    "brandColor": "#83DC16",
+    "composerIcon": "./public/favicon.svg"
+  }
+}

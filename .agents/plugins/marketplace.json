@@ -1,0 +1,20 @@
+{
+  "name": "bitelemon-ui",
+  "interface": {
+    "displayName": "Bitelemon UI"
+  },
+  "plugins": [
+    {
+      "name": "bitelemon-ui",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "NONE"
+      },
+      "category": "Development"
+    }
+  ]
+}

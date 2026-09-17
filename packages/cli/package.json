@@ -1,0 +1,37 @@
+{
+  "name": "@bitelemon-ui/cli",
+  "version": "0.2.0",
+  "description": "Connect AI clients to Bitelemon MCP and install Bitelemon UI components.",
+  "type": "module",
+  "bin": {
+    "bitelemon-ui": "./bin/bitelemon-ui.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "bitelemon",
+    "bitelemon-ui",
+    "shadcn",
+    "react",
+    "tailwind"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leifiyoo/bitelemon-ui.git",
+    "directory": "packages/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/leifiyoo/bitelemon-ui/issues"
+  },
+  "homepage": "https://bitelemon.sh/installation",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

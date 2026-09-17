@@ -1,0 +1,19 @@
+name = "bitelemon-mcp"
+main = "./mcp/worker.ts"
+compatibility_date = "2026-09-14"
+# The supported public endpoint is mcp.bitelemon.sh. Disabling the duplicate
+# workers.dev route reduces unsolicited scans without affecting MCP clients.
+workers_dev = false
+
+[observability]
+enabled = true
+head_sampling_rate = 1
+
+[[analytics_engine_datasets]]
+binding = "MCP_ANALYTICS"
+dataset = "bitelemon_mcp_events"
+
+[[routes]]
+pattern = "mcp.bitelemon.sh"
+zone_name = "bitelemon.sh"
+custom_domain = true
